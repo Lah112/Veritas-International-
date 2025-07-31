@@ -1,0 +1,9 @@
+.clip-left {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+}
+
+@media (max-width: 768px) {
+  .clip-left {
+    clip-path: none;
+  }
+}

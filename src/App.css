@@ -1,0 +1,21 @@
+.pdf-viewer-app {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.pdf-page {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .pdf-page {
+    padding: 1rem;
+  }
+}

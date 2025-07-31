@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.clip-left {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+}
